@@ -1,5 +1,5 @@
 [package]
-name = "file_reader"
+name = "far"
 version = "0.1.0"
 authors = ["basu-dev <adbasudev54@gmail.com>"]
 edition = "2018"
