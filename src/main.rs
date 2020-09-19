@@ -56,7 +56,6 @@ fn main() {
             if count==1 && COPY==false{
                     print!("1  | ");
                     count+=1;
-
             }
             print!("{}",i );
             if i=='\n' && COPY==false{
