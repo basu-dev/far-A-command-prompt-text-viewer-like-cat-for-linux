@@ -1,1 +1,4 @@
-./target
+/target
+Cargo.lock
+a.txt
+*/target/debug/far.exe
