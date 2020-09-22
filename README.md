@@ -1,11 +1,11 @@
-#far (A file reader for Windows System like `cat` for linux.)
+# far (A file reader for Windows System like `cat` for linux.)
 A file opener for Windows command prompt and PowerShell like 'cat' for linux distributions.
 
-##Motivation
+## Motivation
 Using linux it was very comforting to see the file contents on the terminal using `cat` command.
 But while using windows , there is none, at least not preinstalled.So I tried to create the similar application that uses command `far` for Windows Command Prompt and Powershell.
 
-##Usage
+## Usage
 Using `far` you can do same stuff as `cat` like 
 ```sh 
 far src/main.js
@@ -45,7 +45,7 @@ The third argument is optional. You can put any of `--c` or `--copy` or `copy` a
 ```
 And you can select and copy any part of the code and paste wherever you want it.
 
-##Install
+## Install
 For now there is no way to directly download the executable. So you can clone this git repository.
 ```sh
 git clone https://github.com/basu-dev/far-A-command-prompt-text-viewer-like-cat-for-linux.git
