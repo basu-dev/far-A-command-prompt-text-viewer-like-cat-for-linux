@@ -1,4 +1,3 @@
-
 use std::fs::File;
 use std::env;
 use std::io::Read;
@@ -50,7 +49,7 @@ fn main() {
     };
     pub fn show_content(content:String,filepath:&std::path::Path){
         let mut count=1;
-        println!("\n");
+        print!("\n");
         unsafe{
         for i in content.chars(){
             if count==1 && COPY==false{
@@ -75,10 +74,6 @@ fn main() {
             }
         }
     }
-            println!("\n try: far {} --c to remove line count for copying file.",filepath.to_str().unwrap());
+            println!("\n\n try: far {} --c to remove line count for copying file.",filepath.to_str().unwrap());
     }
 }
-
-
-
-

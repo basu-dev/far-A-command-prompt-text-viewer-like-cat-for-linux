@@ -1,11 +1,19 @@
-#far (A file reader for Windows System like `cat` for linux.)
+# far (A file reader for Windows System like `cat` for linux.)
 A file opener for Windows command prompt and PowerShell like 'cat' for linux distributions.
 
-##Motivation
+## Motivation
 Using linux it was very comforting to see the file contents on the terminal using `cat` command.
 But while using windows , there is none, at least not preinstalled.So I tried to create the similar application that uses command `far` for Windows Command Prompt and Powershell.
 
-##Usage
+## Install
+To download the `far` visit https://farcli.netlify.app/ and follow accordingly.
+
+After the command completes, You can directly paste the path to that executable file `far.exe` to environment variable and you can use `far` in your command prompt.
+Now go to Command Prompt and type `far`, it should work. If it doesn't work, the path to the executable is not placed in environment variable. 
+If you don't know that you can make a google on how to set environment variable and you are ready to go on.
+
+
+## Usage
 Using `far` you can do same stuff as `cat` like 
 ```sh 
 far src/main.js
@@ -45,12 +53,5 @@ The third argument is optional. You can put any of `--c` or `--copy` or `copy` a
 ```
 And you can select and copy any part of the code and paste wherever you want it.
 
-##Install
-For now there is no way to directly download the executable. So you can clone this git repository.
-```sh
-git clone https://github.com/basu-dev/far-A-command-prompt-text-viewer-like-cat-for-linux.git
-```
-After the command completes, go to the folder and in `target/debug ` folder you see the executable named `far.exe`.
-You can directly paste the path to that executable to environment variable path and you can use `far` in your command prompt.
-If you dont care about the rest of the folders and files, just copy the executable and paste it somewhere else and put that path to your environment variable and remove the rest of the folders.
+
 
